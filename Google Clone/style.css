@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction:column ;
+    height: 100vh;
+}
+
+.top-right{
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+   justify-content: space-between;
+    position: fixed;
+    right: 0;
+    color: black;
+    font-display: none;
+    
+   }
+.header-icons, .apps {
+    margin-left: 5px;
+}
+#searchbar{
+    height: 25px;
+    width: 30vw;
+    border: none;
+    padding: 12px;
+    outline: none;
+    
+
+}
+.search-input{
+    height: 30px;
+    width:35vw ;
+    border-radius: 40px;
+    padding: 10px 15px;
+    
+    border: 1px solid lightgrey;
+align-items: center;
+margin: 0 auto;
+display: flex;
+color: gray;
+
+}
+
+.lense{
+    padding: 11px;
+    cursor: pointer;
+      
+}
+.mic{
+    padding-left: 11px;
+    display: flex;
+    cursor: pointer;
+}
+body, section{
+    align-items: center;
+   
+   flex-direction: column;
+ 
+    
+}
+.logo{
+   height: 200px;
+   width:600px;
+   
+}
+.last-buttons{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.google-search{
+    margin-right: 40px;
+    cursor: pointer;
+}
+.lucky{
+    cursor: pointer; 
+}
