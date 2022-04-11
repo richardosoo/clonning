@@ -6,6 +6,8 @@ body{
     display: flex;
     flex-direction:column ;
     height: 100vh;
+    align-self: center;
+    
 }
 
 .top-right{
@@ -32,39 +34,42 @@ body{
 
 }
 .search-input{
-    height: 30px;
+    height: 20px;
     width:35vw ;
     border-radius: 40px;
     padding: 10px 15px;
-    
+    align-items: center;
+    margin-top: 0px;
     border: 1px solid lightgrey;
-align-items: center;
-margin: 0 auto;
+
 display: flex;
 color: gray;
 
 }
 
 .lense{
-    padding: 11px;
+    padding: 0px;
     cursor: pointer;
       
 }
 .mic{
-    padding-left: 11px;
+    padding-left: 65px;
     display: flex;
     cursor: pointer;
+
 }
 body, section{
     align-items: center;
-   
-   flex-direction: column;
+   position: center;
  
     
 }
 .logo{
    
-   width:600px;
+   width:400px;
+   align-content: center;
+   margin-top: 40%;
+ 
    
 }
 .last-buttons{
@@ -79,11 +84,18 @@ body, section{
     cursor: pointer;
     margin-top: 40px;
   border: none;
-  padding: 10px 30px;
+  padding: 10px;
 }
 .lucky{
     cursor: pointer; 
     margin-top: 40px;
     border: none;
     padding: 10px;
+}
+.logo .search-input{
+    padding-top: 45%;
+    padding-bottom: 45%;
+}
+.logo .search-input{
+    vertical-align: middle;
 }
